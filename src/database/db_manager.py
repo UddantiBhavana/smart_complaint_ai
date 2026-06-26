@@ -79,11 +79,11 @@ def insert_default_users():
 
     users = [
         ("road_officer", "road123", "Officer", "Road Maintenance Department"),
-        ("sanitation_officer", "sanitation123", "Officer", "Sanitation Department"),
         ("water_officer", "water123", "Officer", "Water Supply Department"),
-        ("electricity_officer", "electricity123", "Officer", "Electricity Department"),
-        ("drainage_officer", "drainage123", "Officer", "Drainage Department"),
-        ("admin", "admin123", "Admin", "Admin")
+        ("drainage_officer", "drain123", "Officer", "Drainage Department"),
+        ("electric_officer", "elec123", "Officer", "Electricity Department"),
+        ("sanitation_officer", "clean123", "Officer", "Sanitation Department"),
+        ("admin", "admin123", "Admin", "All Departments")
     ]
 
     for username, password, role, department in users:
@@ -96,7 +96,7 @@ def insert_default_users():
 
     conn.commit()
     conn.close()
-    
+
 def insert_complaint(
     citizen_name,
     phone_number,

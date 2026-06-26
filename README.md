@@ -231,10 +231,10 @@ Password: admin123
 | Department | Username | Password |
 |------------|----------|----------|
 | Road Maintenance | road_officer | road123 |
-| Sanitation | sanitation_officer | sanitation123 |
+| Sanitation | sanitation_officer | clean123 |
 | Water Supply | water_officer | water123 |
-| Electricity | electricity_officer | electricity123 |
-| Drainage | drainage_officer | drainage123 |
+| Electricity | electric_officer | elec123 |
+| Drainage | drainage_officer | drain123 |
 
 ---
 
