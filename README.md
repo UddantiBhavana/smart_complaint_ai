@@ -220,15 +220,19 @@ streamlit run app.py
 
 ## 📚 Dataset
 
-The original datasets are **not included** in this repository due to GitHub file size limitations.
+The original datasets are **not included** in this repository due to GitHub's file size limitations.
 
 ### Complaint Dataset
-- **NYC 311 Service Requests Dataset**
-  https://www.kaggle.com/datasets/new-york-city/ny-311-service-requests/data :contentReference[oaicite:0]{index=0}
+
+* **NYC 311 Service Requests Dataset**
+
+  * https://www.kaggle.com/datasets/new-york-city/ny-311-service-requests/data
 
 ### Image Dataset
-- **Garbage, Pothole and Normal Image Dataset**
-  https://data.mendeley.com/datasets/zndzygc3p3 :contentReference[oaicite:1]{index=1}
+
+* **Garbage, Pothole and Normal Image Dataset**
+
+  * https://data.mendeley.com/datasets/zndzygc3p3
 
 The trained Machine Learning models are already included in the **models/** folder.
 
