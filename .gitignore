@@ -1,0 +1,28 @@
+# Virtual Environments
+venv/
+venv312/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Database
+database/*.db
+
+# Uploads
+uploads/*
+
+# Reports
+reports/*.pdf
+
+# Temporary models
+models/temp/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Ignore datasets
+datasets/
