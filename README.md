@@ -218,6 +218,26 @@ streamlit run app.py
 
 ---
 
+## Demo Login Credentials
+
+### Admin
+
+Username: admin
+
+Password: admin123
+
+### Department Officers
+
+| Department | Username | Password |
+|------------|----------|----------|
+| Road Maintenance | road_officer | road123 |
+| Sanitation | sanitation_officer | sanitation123 |
+| Water Supply | water_officer | water123 |
+| Electricity | electricity_officer | electricity123 |
+| Drainage | drainage_officer | drainage123 |
+
+---
+
 ## 📚 Dataset
 
 The original datasets are **not included** in this repository due to GitHub's file size limitations.
