@@ -72,6 +72,31 @@ def create_database():
     conn.commit()
     conn.close()
 
+def insert_default_users():
+
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+
+    users = [
+        ("road_officer", "road123", "Officer", "Road Maintenance Department"),
+        ("sanitation_officer", "sanitation123", "Officer", "Sanitation Department"),
+        ("water_officer", "water123", "Officer", "Water Supply Department"),
+        ("electricity_officer", "electricity123", "Officer", "Electricity Department"),
+        ("drainage_officer", "drainage123", "Officer", "Drainage Department"),
+        ("admin", "admin123", "Admin", "Admin")
+    ]
+
+    for username, password, role, department in users:
+
+        cursor.execute("""
+            INSERT OR IGNORE INTO users
+            (username, password, role, department)
+            VALUES (?, ?, ?, ?)
+        """, (username, password, role, department))
+
+    conn.commit()
+    conn.close()
+    
 def insert_complaint(
     citizen_name,
     phone_number,

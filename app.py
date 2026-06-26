@@ -23,6 +23,7 @@ from src.utils.duplicate_checker import find_similar_complaints
 from src.utils.auth import authenticate_user
 from src.database.db_manager import (
     create_database,
+    insert_default_users,
     insert_complaint,
     get_all_complaints,
     get_active_complaints,
@@ -75,6 +76,7 @@ if "open_complaint" not in st.session_state:
     st.session_state.open_complaint = -1
 
 create_database()
+insert_default_users()
 
 st.markdown("""
 <style>
